@@ -314,6 +314,16 @@ openssl passwd -6 -salt xyz  qwert
 openssl passwd -6 -salt xyz  yourpasssword
 
 ```
+
+## Easy use minicom
+Add it to Bash File
+```sh
+#!/bin/bash
+sudo stty -F /dev/ttyUSB0 115200 -echo -icanon -onlcr parenb -parodd inpck ignpar
+sleep 2
+sudo minicom -D /dev/ttyUSB0
+```
+
 ## reset pasword etc/shadow change
 
 ```sh
