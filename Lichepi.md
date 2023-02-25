@@ -302,6 +302,9 @@ sudo chmod 777 /dev/ttyUSB0
 ## Serial port setting for host connect
 
 ```sh
+
+sudo adduser $USER dialout
+
 sudo stty -F /dev/ttyUSB0 115200 -echo -icanon -onlcr parenb -parodd inpck ignpar
 
 sudo minicom -D /dev/ttyUSB0
