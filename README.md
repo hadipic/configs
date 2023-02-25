@@ -20,6 +20,13 @@ git branch -M main
 git push -u origin main
 ```
 
+## Push Changes
+```sh
+git add .
+git commit -m "Message"
+git push origin BRANCH_NAME
+```
+
 ## Create SSH Key
 
 ```sh
