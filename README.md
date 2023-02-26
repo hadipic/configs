@@ -27,6 +27,13 @@ git commit -m "Message"
 git push origin BRANCH_NAME
 ```
 
+## Change Branches
+```sh
+git checkout -b BRANCH origin/BRANCH
+## 
+git checkout BRANCH
+```
+
 ## Create SSH Key
 
 ```sh
