@@ -29,9 +29,18 @@ git push origin BRANCH_NAME
 
 ## Change Branches
 ```sh
-git checkout -b BRANCH origin/BRANCH
+git checkout -b BRANCH origin/BRANCH # تغییر برنچ و متصل کردن آن به گیت ریموت
 ## 
-git checkout BRANCH
+git checkout BRANCH # تغییر برنچ
+##
+git checkout -b BRANCH # ساخت برنچ جدید روی گیت لوکال
+```
+
+## Fetch New Changes
+```sh
+git fetch --prune # دریافت اخرین تغییرات و حذف برنچ های اضافی
+##
+git fetch --all # دریافت اخرین تغییرات
 ```
 
 ## Create SSH Key
