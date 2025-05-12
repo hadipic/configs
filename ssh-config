@@ -1,0 +1,9 @@
+ssh-keygen -t rsa -b 4096 -C "hadi.bashniji@gmail.com"
+type id_rsa.pub
+ssh-add C:\Users\hadib\.ssh\id_rsa.pub
+ssh-add -l
+به صفحه SSH keys در GitHub بروید
+روی "New SSH key" کلیک کنید
+عنوانی برای کلید انتخاب کنید (مثلاً "Windows PC")
+کلید کپی شده را در قسمت Key پیست کنید
+روی "Add SSH key" کلیک کنید
